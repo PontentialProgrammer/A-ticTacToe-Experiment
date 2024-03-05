@@ -1,0 +1,47 @@
+body{
+    text-align:center;
+    background-color:rgb(114, 53, 204);
+    color: #ccc;
+    font-family: Salsa;
+}
+hr{
+    border: 1px solid #ccc;
+}
+.board{
+    margin: 30px auto;
+    width: 35%;
+    display:flex;
+    flex-direction: row;
+    justify-content:  space-between;
+    flex-wrap:wrap;
+    row-gap: 4px;
+    column-gap: 1px;
+}
+
+button{
+    width:33%;
+    height: 130px;
+    background-color: rgb(114, 53, 204);
+    /* border-left: ; */
+    /* margin:1px; */
+    border: 1px #ccc solid;
+    font-family: Salsa;
+    font-size: 40px;
+    color: #ccc;
+}
+#restart{
+    height:50px;
+    font-size: medium;
+    display: none;
+}
+
+/* h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="board"] {
+      width: 100%;
+    }
+  }
